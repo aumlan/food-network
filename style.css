@@ -14,6 +14,12 @@ section {
     margin-top: 55px;
 }
 
+.about-me {
+    background-image: url("images/about-me_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .half-width {
     width: 40%;
     float: left;
@@ -31,9 +37,15 @@ h1 {
     color: rgb(78, 77, 77);
 }
 
-h2 {
+.text h2 {
     margin: 5px 0px;
     font-size: 50px;
+    color: rgb(78, 77, 77);
+}
+
+.about-text h2 {
+    font-size: 50px;
+    margin: 20% 0 10% 0;
     color: rgb(78, 77, 77);
 }
 
@@ -43,6 +55,12 @@ h1 span {
 
 .half-width img {
     width: 100%;
+}
+
+.about-img img {
+    margin-top: 9%;
+    width: 60%;
+    margin-left: 15%;
 }
 
 .anchor-button {
@@ -60,4 +78,9 @@ p {
     margin-bottom: 50px;
     margin-top: 30px;
     font-size: 20px;
+    text-align: justify;
+}
+
+.about-text p {
+    margin-bottom: 12%;
 }
