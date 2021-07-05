@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    margin-top: 55px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.text {
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 0px;
+    color: rgb(78, 77, 77);
+}
+
+h2 {
+    margin: 5px 0px;
+    font-size: 50px;
+    color: rgb(78, 77, 77);
+}
+
+h1 span {
+    color: rgb(251, 164, 82);
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.anchor-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, #ffb091, rgb(253, 38, 0));
+    padding: 20px 35px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 100;
+    box-shadow: 0px 0px 15px rgba(231, 99, 10, 0.815);
+}
+
+p {
+    color: dimgray;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
