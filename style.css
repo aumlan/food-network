@@ -108,3 +108,72 @@ footer {
     position: absolute;
     width: 100%;
 }
+
+.row-1 {
+    text-align: -webkit-center;
+    ;
+}
+
+.row-1 h2 {
+    font-size: 40px;
+}
+
+.row-1 p {
+    text-align: center;
+    font-size: 20px;
+    width: 45%;
+}
+
+.recipie-area {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.recipie-area h3 {
+    color: orange;
+}
+
+.recipie-area div {
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgb(182, 176, 176);
+    height: 60%;
+}
+
+.recipie-card img {
+    height: 50%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.recipie-card h2 {
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.recipie-card p {
+    font-size: 15px;
+    margin-left: 5%;
+    width: 85%;
+}
+
+#recipie-1 {
+    border-radius: 6%;
+    margin-left: 7%;
+}
+
+#recipie-2 {
+    border-radius: 6%;
+    margin-left: 6%;
+}
+
+#recipie-3 {
+    border-radius: 6%;
+    margin-left: 6%;
+}
+
+.recipie-card {
+    width: 25%;
+    height: 25%;
+}
