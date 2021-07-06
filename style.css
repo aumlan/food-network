@@ -136,7 +136,7 @@ footer {
 
 .recipie-area div {
     justify-content: center;
-    box-shadow: 0px 0px 20px rgb(182, 176, 176);
+    box-shadow: 0px 0px 15px rgb(223, 223, 223);
     height: 60%;
 }
 
@@ -176,4 +176,45 @@ footer {
 .recipie-card {
     width: 25%;
     height: 25%;
+}
+
+.social-area div {
+    justify-content: center;
+    box-shadow: 0px 0px 15px rgb(223, 223, 223);
+    height: 25%;
+}
+
+.social-card {
+    display: flex;
+    width: 87%;
+    height: 25%;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.social-card div {
+    justify-content: center;
+    box-shadow: 0px 0px 0px;
+    height: 25%;
+}
+
+.social-card h2 {
+    font-size: 40px;
+    margin-top: 28%;
+    margin-bottom: 5%;
+}
+
+.social-card p {
+    font-size: 15px;
+    margin-top: 5%;
+    font-weight: 100;
+}
+
+.col-2 {
+    margin-left: 10%;
+}
+
+.col-3 {
+    margin-left: 10%;
 }
